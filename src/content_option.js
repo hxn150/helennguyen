@@ -1,4 +1,13 @@
 const logotext = "Helen Nguyen";
+// const logoimg = "https://drive.google.com/uc?export=view&id=1SeqDUV0UDeqSN1odqvLUahGSTM5vhoSy"
+// const image2 = document.createElement("img");
+// const apiKey2 = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
+// const fileID2 = introdata.logoimg;
+// const imageURL2 = `https://www.googleapis.com/drive/v3/files/${fileID2}?key=${apiKey2}&alt=media`;
+// //https://drive.google.com/uc?export=view&id=1SeqDUV0UDeqSN1odqvLUahGSTM5vhoSy
+// image2.src = imageURL2;
+
+// document.body.appendChild(image2);
 const meta = {
     title: "Helen Nguyen",
     description: "Hi! I am Helen",
@@ -22,9 +31,6 @@ const fileID = introdata.your_img_id;
 const imageURL = `https://www.googleapis.com/drive/v3/files/${fileID}?key=${apiKey}&alt=media`;
 
 image.src = imageURL;
-
-image.width = 1; // Replace with your desired width
-image.height = 2; 
 
 document.body.appendChild(image);
 
@@ -113,12 +119,12 @@ const dataportfolio = [{
         link: "https://github.com/hxn150/MemoryGame",
     },
     {
-        img: "https://www.teamly.com/blog/wp-content/uploads/2021/12/Master-Task-List.png",
+        img: "https://marketplace.canva.com/EAFO2zQwVFM/1/0/1131w/canva-beige-minimalist-to-do-list-planner-d9c2bZvUNHY.jpg",
         description: "ToDo List to record lists of tasks for users.",
         link: "https://github.com/hxn150/ToDoList",
     },
     {
-        img: "https://strawberrykit.com/wp-content/uploads/2017/03/Booking-form-template-photographers.jpg",
+        img: "https://i.etsystatic.com/9927664/r/il/1fe652/1701828855/il_fullxfull.1701828855_g1mf.jpg",
         description: "Booking form template created using Bootstrap for users to book an event for a specific date and see the according pricings.",
         link: "https://github.com/hxn150/BookingForm",
     },

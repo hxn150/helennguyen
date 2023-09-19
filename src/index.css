@@ -10,12 +10,12 @@
 
 [data-theme="minimalism"] {
     --bg-color: #1b1d24;
-    --primary-color: #edf0fb;
-    --secondary-color: #796b87;
+    --primary-color: #1b1d24;
+    --secondary-color: #f0ecff;
     --text-color: #f9fafc;
-    --text-color-2: #231d38;
+    --text-color-2: #f0ecff;
     --text-color-3: rgb(255, 35, 193);
-    --overlay-color: rgb(252, 252, 252);
+    --overlay-color: rgb(65, 40, 40);
 }
 
 html,
