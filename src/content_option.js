@@ -1,13 +1,5 @@
 const logotext = "Helen Nguyen";
-// const logoimg = "https://drive.google.com/uc?export=view&id=1SeqDUV0UDeqSN1odqvLUahGSTM5vhoSy"
-// const image2 = document.createElement("img");
-// const apiKey2 = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
-// const fileID2 = introdata.logoimg;
-// const imageURL2 = `https://www.googleapis.com/drive/v3/files/${fileID2}?key=${apiKey2}&alt=media`;
-// //https://drive.google.com/uc?export=view&id=1SeqDUV0UDeqSN1odqvLUahGSTM5vhoSy
-// image2.src = imageURL2;
 
-// document.body.appendChild(image2);
 const meta = {
     title: "Helen Nguyen",
     description: "Hi! I am Helen",
