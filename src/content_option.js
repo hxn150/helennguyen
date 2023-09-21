@@ -4,7 +4,7 @@ const meta = {
     title: "Helen Nguyen",
     description: "Hi! I am Helen",
 };
-// 
+
 const introdata = {
     title: "Hi 🙌 My name is Helen 🤠",
     animated: {

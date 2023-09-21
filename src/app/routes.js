@@ -24,8 +24,8 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<ContactUs />} />
         <Route path="/gallery" element={<PhotoPortfolio />} />
+        <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </CSSTransition>
   </TransitionGroup>
