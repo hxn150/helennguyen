@@ -28,7 +28,7 @@ document.body.appendChild(image);
 
 const dataabout = {
     title: "Facts About Myself",
-    aboutme: "I am a current Junior majoring in Computer Science with minors in Banking & Finanace and Maths at Case Western Reserve University. I am interested in Web Development and am looking for internship opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
+    aboutme: "I am a current Junior majoring in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for internship opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
 };
 const worktimeline = [
     {
@@ -286,8 +286,6 @@ const photoportfolio = [
     description: "Cleveland Beach \n Cleveland, OH 2022",
 },
 ];
-
-
 
 const image1 = document.createElement("img");
 const fileID1 = introdata.your_img_id;
