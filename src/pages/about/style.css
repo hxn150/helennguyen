@@ -10,7 +10,7 @@
 .t_border {
     border-color: var(--text-color) !important;
 }
-
+/* // */
 .progress-title {
     font-size: 16px;
     font-weight: 700;

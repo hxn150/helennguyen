@@ -6,7 +6,7 @@
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem;
 }
-
+/*  */
 .po_item {
     display: inline-flexbox; 
     width: 100%;

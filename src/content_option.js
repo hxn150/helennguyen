@@ -1,13 +1,5 @@
 const logotext = "Helen Nguyen";
-// const logoimg = "https://drive.google.com/uc?export=view&id=1SeqDUV0UDeqSN1odqvLUahGSTM5vhoSy"
-// const image2 = document.createElement("img");
-// const apiKey2 = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
-// const fileID2 = introdata.logoimg;
-// const imageURL2 = `https://www.googleapis.com/drive/v3/files/${fileID2}?key=${apiKey2}&alt=media`;
-// //https://drive.google.com/uc?export=view&id=1SeqDUV0UDeqSN1odqvLUahGSTM5vhoSy
-// image2.src = imageURL2;
 
-// document.body.appendChild(image2);
 const meta = {
     title: "Helen Nguyen",
     description: "Hi! I am Helen",
@@ -159,6 +151,152 @@ const languages = [{
     value: 100,
 },
 ];
+
+const photoportfolio = [
+{
+    img: "https://drive.google.com/uc?export=view&id=1zOl5An6Jae7060kUYz-x5SoIZoyozXpl",
+    description: "Isabella Steward Gardner Museum \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1_s8fQ_SWarE_YJpOQS0LU5VewnFuedrc",
+    description: "Flekke \n Norway 2020",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1ApM33OAkzMs5hIlcigaokORz16J8chEw",
+    description: "Nha Trang \n Vietnam 2023",
+},
+
+{
+    img: "https://drive.google.com/uc?export=view&id=1Ln7aQGFIG-LIXBYa8DMNxKyvAq6VsDkZ",
+    description: "Beacon Hill \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1dTPQqvp7axmsZvv3QnzSlVez1XrJUfDV",
+    description: "Cleveland Museum of Art \n Cleveland, OH 2022",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=11eoo5vCZErSBJ_zkKWeC8y2f3e7bh1kz",
+    description: "Nha Trang \n Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1kaVz_LXcZjucVm6_kqvnuO82tTW4BhLG",
+    description: "District 1 \n Saigon, Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1rmEeleGw3NwY5ILdzTu8RxTl4OHurMnt",
+    description: "My Khe, Da Nang \n Vietnam 2016",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1ENWq08FqvBKkyMR-f11Hs64J6I2DevWe",
+    description: "Van Mieu Quoc Tu Giam \n (Temple of Literature) \n Hanoi, Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=19eEeMRWN01Emufnc9i_cjG8Z6nGo4ocW",
+    description: "Flekke \n Norway 2022",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1xyEhIwR0nsp7Y_lnsBPuXK3UNT7cVcSR",
+    description: "Strandkaiterminalen \n Norway 2021",
+},
+{    
+    img: "https://drive.google.com/uc?export=view&id=19-vpdhhkt0jBAtnty5P00mItLfr44Xyg",
+    description: "Ho Guom \n Hanoi, Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1zW40mGm-Hle7F9lhgoozVIWScx1XzuQ9",
+    description: " Dong Hoi \n Quang Binh, Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1PQdH_mMpAWWbVEPBmKqjjtGRPj4TsMVd",
+    description: "Beacon Hill \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1G5OMxpq1R1SB9PLwtJQA4003ctX3YjPS",
+    description: "Milan \n Italy 2021",
+},
+
+{
+    img: "https://drive.google.com/uc?export=view&id=1-MK8CH35q8fnWpGkm4dPsHZ6PuEDVZ5R",
+    description: "Beacon Hill \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1ZFTA7AFIfvxJ6n012_UK3Cex-Ia_UOq-",
+    description: "Bergen \n Norway 2021",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1JjZCJTUt93biTL7Nm_RoNl-M-5C8xgUJ",
+    description: "Beacon Hill \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1zW0xnjTl98CJuCrlYmPKe30dwulME_Qd",
+    description: "Nha Trang \n Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=12E_qoZydaKlaQPA0kkvqkY0SsPl3XL66",
+    description: "District 7 \n Ho Chi Minh City \n Vietnam 2020",
+},
+
+{
+    img: "https://drive.google.com/uc?export=view&id=1XGVI0Eht83GD0ffJNCUaZ2GsMix9LuKl",
+    description: "Beacon Hill \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1Ja7cJfm7jGbUuySahAtpWcJfk0oO38Mz",
+    description: "Isabella Steward Gardner Museum \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1wcA4wsRKO_thcWxOPx2Mre123axePe6G",
+    description: "Paris \n France 2021",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1hAueKWlLZgP0oXzu1bSavFkwjCoRQwm0",
+    description: "Isabella Steward Gardner Museum \n Boston, MA 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1H_EWb1jzTMsE6XtC2ShngrOQ5VOzsDDA",
+    description: "Trang Tien Plaza \n Hanoi, Vietnam 2023",
+},
+
+{
+    img: "https://drive.google.com/uc?export=view&id=1L6z1-DhPl5qS_WbVWy-nQ_EZi65-_KfC",
+    description: "Nha Trang \n Vietnam 2023",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1jnEjClxUNS4Cc2zOiNmmE2v7qGFn-4rA",
+    description: "Flekke \n Norway 2022",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1KKTi9GIVOTN2rcs47mlLSQc3zgHG6u9n",
+    description: "Downtown Cleveland \n Cleveland, OH 2022",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1pQlauFOGR0Gm40g6_6LnNuXOkVeiwH88",
+    description: "Flekke \n Norway 2022",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=15QYfOgDRWDjowpsN4TZy3dd7BZETQAdo",
+    description: "Cleveland Museum of Art \n Cleveland, OH 2022",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=10Wayf1PdKL5uurf4Q2WV1MaA0o2vmaUS",
+    description: "Flekke \n Norway 2020",
+},
+{
+    img: "https://drive.google.com/uc?export=view&id=1C9oM2WCJLlS21xug8Ar6UBIRHlPccoJR",
+    description: "Cleveland Beach \n Cleveland, OH 2022",
+},
+];
+
+
+
+const image1 = document.createElement("img");
+const fileID1 = introdata.your_img_id;
+const imageURL1 = `https://www.googleapis.com/drive/v3/files/${fileID1}?key=${apiKey}&alt=media`;
+
+image1.src = imageURL1;
+
+document.body.appendChild(image1);
+
 export {
     meta,
     dataabout,
@@ -172,4 +310,5 @@ export {
     logotext,
     awards,
     languages,
+    photoportfolio,
 };

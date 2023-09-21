@@ -11,7 +11,7 @@ import {
   awards,
   languages,
 } from "../../content_option";
-
+//
 export const About = () => {
   return (
     <HelmetProvider>
