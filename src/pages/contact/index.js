@@ -5,7 +5,15 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
-// 
+import emailjs from 'emailjs-com';
+
+// Replace these values with your actual service credentials
+const name = 'YOUR_SERVICE_ID';
+const message = 'YOUR_TEMPLATE_ID';
+const userID = 'YOUR_USER_ID';
+
+emailjs.init(userID);
+
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -17,6 +25,28 @@ export const ContactUs = () => {
     variant: "",
   });
 
+  function sendEmail() {
+    // Define your email parameters
+    const templateParams = {
+      to_email: 'hxn150@case.edu', // Replace with the recipient's email address
+      from_name: 'Your Name',
+      message: 'Hello, this is a test email!',
+    };
+  
+    // Send the email
+    emailjs
+      .send(name, message, templateParams)
+      .then((response) => {
+        console.log('Email sent successfully:', response);
+      })
+      .catch((error) => {
+        console.error('Email send error:', error);
+      });
+  }
+  
+  // Call the sendEmail function to send the email
+  sendEmail();
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });

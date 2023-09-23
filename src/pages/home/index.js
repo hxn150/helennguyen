@@ -4,7 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-// 
+//
 export const Home = () => {
   return (
     <HelmetProvider>
@@ -39,7 +39,7 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <Link to="/portfolio">
+                <Link to="/portfolio">
                     <div id="button_h" className="ac_btn btn">
                       My Portfolio
                       <div className="ring one"></div>
@@ -47,30 +47,24 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link to="/contact" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
+                  <Link to="/portfolio">
+                    <div id="button_h" className="ac_btn btn">
                       Contact Me
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <Link
-                    onClick={() => {
-                      const newTab = window.open(
-                        "https://drive.google.com/uc?export=view&id=1ZVlFf20azGdtTNhiqCkobahj_b8AGkZP",
-                        "_blank"
-                      );
-                      newTab.focus();
-                    }}
+                  <a
+                    href="https://drive.google.com/uc?export=download&id=1Qtf8t8R6DUb79kSTlElYU8OE9qmivXBD"
+                    download="hxn150_resume.pdf"
+                    className="ac_btn btn"
                   >
-                    <div id="button_h" className="ac_btn btn">
-                      My Resume
-                      <div className="ring one"></div>
-                      <div className="ring two"></div>
-                      <div className="ring three"></div>
-                    </div>
-                  </Link>
+                    My Resume
+                    <div className="ring one"></div>
+                    <div className="ring two"></div>
+                    <div className="ring three"></div>
+                  </a>
                 </div>
               </div>
             </div>
