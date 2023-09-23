@@ -5,7 +5,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
-import emailjs from 'emailjs-com';
 
 // Replace these values with your actual service credentials
 const name = 'YOUR_SERVICE_ID';
