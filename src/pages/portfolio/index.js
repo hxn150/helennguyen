@@ -41,22 +41,6 @@ export const Portfolio = () => {
             })}
           </div>
         </div>
-        {/* <div className="mb-5 po_items_ho">
-          <div className="po_items_row">
-         {dataportfolio.map((data, i) => {
-              return (
-                <div key={i} className="po_item">
-                  <img src={data.img} alt="" />
-                  <div className="content">
-                    <p className="project-title">{data.title} 👩‍💻 </p>
-                    <p>{data.description}</p>
-                    <a href={data.link}>View Project</a>
-                  </div>
-                </div>
-              );
-            })}
-            </div>
-        </div> */}
       </Container>
     </HelmetProvider>
   );

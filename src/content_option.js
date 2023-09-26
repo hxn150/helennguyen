@@ -16,13 +16,12 @@ const introdata = {
     your_img_url: "https://drive.google.com/uc?export=view&id=1nDNxCzuISZ9EvN-Nq3HsaA5nKU_q-HZK",
 };
 
-//https://drive.google.com/file/d/1ZVlFf20azGdtTNhiqCkobahj_b8AGkZP/view?usp=drive_link
 const image = document.createElement("img");
 const apiKey = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
 const fileID = introdata.your_img_id;
-const imageURL = `https://www.googleapis.com/drive/v3/files/${fileID}?key=${apiKey}&alt=media`;
+// const imageURL = `https://www.googleapis.com/drive/v3/files/${fileID}?key=${apiKey}&alt=media`;
 
-image.src = imageURL;
+// image.src = imageURL;
 
 document.body.appendChild(image);
 
@@ -288,10 +287,10 @@ const photoportfolio = [
 ];
 
 const image1 = document.createElement("img");
-const fileID1 = introdata.your_img_id;
-const imageURL1 = `https://www.googleapis.com/drive/v3/files/${fileID1}?key=${apiKey}&alt=media`;
+// const fileID1 = introdata.your_img_id;
+// const imageURL1 = `https://www.googleapis.com/drive/v3/files/${fileID1}?key=${apiKey}&alt=media`;
 
-image1.src = imageURL1;
+// image1.src = imageURL1;
 
 document.body.appendChild(image1);
 
