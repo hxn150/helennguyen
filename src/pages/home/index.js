@@ -57,7 +57,8 @@ export const Home = () => {
                   </Link>
                   <a
                   //https://drive.google.com/file/d/1TJ4nXDfF-wIXfl-_a0giGAYlcj9qFbOq/view?usp=sharing
-                    href="https://drive.google.com/uc?export=download&id=1TJ4nXDfF-wIXfl-_a0giGAYlcj9qFbOq"
+                  //https://drive.google.com/file/d/1gPvgcebvdByZNwol1pAMfJpRYUVouzBn/view?usp=sharing
+                    href="https://drive.google.com/uc?export=download&id=1gPvgcebvdByZNwol1pAMfJpRYUVouzBn"
                     download="hxn150_resume.pdf"
                     className="ac_btn btn"
                   >
