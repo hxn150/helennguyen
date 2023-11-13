@@ -56,7 +56,7 @@ export const Home = () => {
                     </div>
                   </Link>
                   <a
-                    href="https://drive.google.com/uc?export=download&id=1gPvgcebvdByZNwol1pAMfJpRYUVouzBn"
+                    href="https://drive.google.com/uc?export=view&id=1yA9fS7LUqriWBIighhDysjpcPrjMp3NR"
                     download="hxn150_resume.pdf"
                     className="ac_btn btn"
                   >
