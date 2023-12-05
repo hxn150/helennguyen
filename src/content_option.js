@@ -13,7 +13,7 @@ const introdata = {
         third: "Come to stay 🫶",
     },
     description: "I love designing websites and optimizing user experiences, and I am looking forward to becoming an entrepreneur and making an impact on my community using the technology I develop!",
-    your_img_url: "https://drive.google.com/uc?export=view&id=1nDNxCzuISZ9EvN-Nq3HsaA5nKU_q-HZK",
+    your_img_url: "https://drive.google.com/uc?export=view&id=1yA9fS7LUqriWBIighhDysjpcPrjMp3NR",
 };
 
 const image = document.createElement("img");
