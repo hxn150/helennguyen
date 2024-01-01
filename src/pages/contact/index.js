@@ -7,9 +7,9 @@ import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
 
 // Replace these values with your actual service credentials
-const name = 'YOUR_SERVICE_ID';
-const message = 'YOUR_TEMPLATE_ID';
-const userID = 'YOUR_USER_ID';
+const name = 'service_12osk1s';
+const message = 'template_mqi3rea';
+const userID = '6LHMT93yPVSEb_3sA';
 
 emailjs.init(userID);
 
@@ -24,52 +24,30 @@ export const ContactUs = () => {
     variant: "",
   });
 
-  function sendEmail() {
-    // Define your email parameters
-    const templateParams = {
-      to_email: 'hxn150@case.edu', // Replace with the recipient's email address
-      from_name: 'Your Name',
-      message: 'Hello, this is a test email!',
-    };
-  
-    // Send the email
-    emailjs
-      .send(name, message, templateParams)
-      .then((response) => {
-        console.log('Email sent successfully:', response);
-      })
-      .catch((error) => {
-        console.error('Email send error:', error);
-      });
-  }
-  
-  // Call the sendEmail function to send the email
-  sendEmail();
-  
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
 
     const templateParams = {
-      from_name: formData.email,
-      user_name: formData.name,
+      from_name: formData.name,
+      from_mail: formData.email,
       to_name: contactConfig.YOUR_EMAIL,
       message: formData.message,
     };
 
     emailjs
       .send(
-        contactConfig.YOUR_SERVICE_ID,
-        contactConfig.YOUR_TEMPLATE_ID,
+        contactConfig.service_ID,
+        contactConfig.template_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
+        contactConfig.user_ID
       )
       .then(
         (result) => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thank you for your messege!",
             variant: "success",
             show: true,
           });
@@ -77,7 +55,7 @@ export const ContactUs = () => {
         (error) => {
           console.log(error.text);
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
+            alertmessage: `Failed to send!,${error.text}`,
             variant: "danger",
             show: true,
           });
@@ -174,7 +152,7 @@ export const ContactUs = () => {
                 name="message"
                 placeholder="Message"
                 rows="5"
-                value={formData.message}
+                value={formData.message || ""}
                 onChange={handleChange}
                 required
               ></textarea>
@@ -194,3 +172,4 @@ export const ContactUs = () => {
     </HelmetProvider>
   );
 };
+

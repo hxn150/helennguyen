@@ -13,12 +13,14 @@ const introdata = {
         third: "Come to stay 🫶",
     },
     description: "I love designing websites and optimizing user experiences, and I am looking forward to becoming an entrepreneur and making an impact on my community using the technology I develop!",
-    your_img_url: "https://drive.google.com/uc?export=view&id=1yA9fS7LUqriWBIighhDysjpcPrjMp3NR",
+    your_img_url: "https://drive.google.com/uc?export=view&id=1rwGNBvdUxk6SjPJLl6m54hS9yV1br7ht",
 };
 
+//https://drive.google.com/file/d/1rwGNBvdUxk6SjPJLl6m54hS9yV1br7ht/view?usp=sharing
+
 const image = document.createElement("img");
-const apiKey = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
-const fileID = introdata.your_img_id;
+// const apiKey = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
+// const fileID = introdata.your_img_id;
 // const imageURL = `https://www.googleapis.com/drive/v3/files/${fileID}?key=${apiKey}&alt=media`;
 
 // image.src = imageURL;
@@ -77,13 +79,14 @@ const skills = [{
     },
 ];
 
-const internships = [{
-        title: "Software Engineering Intern (ITC) @ MoMo E-Wallet Services",
-        description: "• Streamlined internal navigation experiences and accuracy by over 90% using Typesense \n • Automated MoMo’s Web Admin testing and improved testing time by 20% using Puppeteer \n • Redesigned the layout of the MoMo App Store using frontend technologies such as React and CSS",
-    },
+const internships = [
     {
         title: "Website Manager @ Department of Neuroscience at CWRU",
         description: "• Redesigned UI/UX interfaces to streamline users’ navigation experiences by 30% using Drupal \n • Updated and edited recent publication listings, personnel listings with integration of Google Forms \n• Built and host over 5 websites for faculties to display their research more efficiently by 98%",
+    },
+    {
+        title: "Software Engineering Intern (ITC) @ MoMo E-Wallet Services",
+        description: "• Streamlined internal navigation experiences and accuracy by over 90% using Typesense \n • Automated MoMo’s Web Admin testing and improved testing time by 20% using Puppeteer \n • Redesigned the layout of the MoMo App Store using frontend technologies such as React and CSS",
     },
     {
         title: "Associate Software Engineering @ TrueCommerce DiCentral",
@@ -130,6 +133,9 @@ const contactConfig = {
     YOUR_EMAIL: "hxn150@case.edu",
     YOUR_FONE: "(281)662-8279",
     description: "Please feel free to contact me via Email or Text about any inqueries or job opportunities that are aligned with my skillset! I look forward to speaking and connecting with you.",
+    service_ID: 'service_12osk1s',
+    template_ID: 'template_mqi3rea',
+    user_ID: '6LHMT93yPVSEb_3sA'
 };
 
 const socialprofils = {
