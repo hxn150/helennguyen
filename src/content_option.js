@@ -107,23 +107,29 @@ const awards =[
     },
 ];
 
-const dataportfolio = [{
-        img: "https://i.pinimg.com/564x/cb/36/3d/cb363db1dadc73a2cfbb3044beacc60a.jpg",
-        description: "This is an interactive memory game with various difficulty levels (3x6, 4x6, 6x6) and a leadership board to record your highest records!",
+const dataportfolio = [
+    {
+        img: "https://images.unsplash.com/photo-1694958020883-f05b64c3680c?q=80&w=2810&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "AI Image Generator ultilizing the OpenAI API and JS",
+        link: "https://github.com/hxn150/AI-Image-Generator",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1652197881268-d625ad54402b?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "This is an interactive memory game with various difficulty levels and a leadership board to record your highest records!",
         link: "https://github.com/hxn150/MemoryGame",
     },
     {
-        img: "https://marketplace.canva.com/EAFO2zQwVFM/1/0/1131w/canva-beige-minimalist-to-do-list-planner-d9c2bZvUNHY.jpg",
+        img: "https://images.unsplash.com/photo-1506784781895-38847b5e50e7?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "ToDo List to record lists of tasks for users.",
         link: "https://github.com/hxn150/ToDoList",
     },
     {
-        img: "https://i.etsystatic.com/9927664/r/il/1fe652/1701828855/il_fullxfull.1701828855_g1mf.jpg",
+        img: "https://images.unsplash.com/photo-1535957998253-26ae1ef29506?q=80&w=2836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "Booking form template created using Bootstrap for users to book an event for a specific date and see the according pricings.",
         link: "https://github.com/hxn150/BookingForm",
     },
     {
-        img: "https://i.pinimg.com/1200x/3e/da/64/3eda649336ac4dee5dedb69c4d049842.jpg",
+        img: "https://images.unsplash.com/photo-1620891473219-f9584cd3c39c?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "A health care website that will help to analyze the mental health of the users with the help of some questions which are taken from World Health Organization. Our website aims to not only record, track, but also provide suggestions of activities/songs to improve your current mood.",
         link: "https://www.youtube.com/watch?v=anOXjg4Rguk&ab_channel=HelenNguyen",
     },
