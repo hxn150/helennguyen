@@ -13,9 +13,9 @@ const introdata = {
         third: "Come to stay 🫶",
     },
     description: "I love designing websites and optimizing user experiences, and I am looking forward to becoming an entrepreneur and making an impact on my community using the technology I develop!",
-    your_img_url: "https://drive.google.com/uc?export=view&id=1rwGNBvdUxk6SjPJLl6m54hS9yV1br7ht",
+    your_img_url: "https://drive.google.com/uc?export=view&id=1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW",
 };
-
+//https://drive.google.com/file/d/1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW/view?usp=sharing
 //https://drive.google.com/file/d/1rwGNBvdUxk6SjPJLl6m54hS9yV1br7ht/view?usp=sharing
 
 const image = document.createElement("img");
