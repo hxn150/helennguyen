@@ -4,9 +4,17 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
-//
+import img from "../../img/homeimg.JPG"
+import { Image } from "react-bootstrap";
+import { motion } from "framer-motion";
+
 export const Home = () => {
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeInOut" }}
+    >
     <HelmetProvider>
       <section id="home" className="home">
         <Helmet>
@@ -15,10 +23,12 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div
-            className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
-          ></div>
+          <Image
+                      className="h_bg-image order-1 order-lg-2 h-100 "
+                      src={img}
+                      width="100%"
+                      height="auto"
+                    />
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
               <div className="intro mx-auto">
@@ -57,7 +67,7 @@ export const Home = () => {
                   </Link>
                   <a 
                     target="_blank"
-                    href="https://drive.google.com/uc?export=view&id=1pheWhKLUWWHkt8_AE4KQip2DMfZuwzPw"
+                    href="https://drive.google.com/uc?export=view&id=1hJzpDrWoYt9Ka3U6cs2Rg36GRvwbOU2a"
                     download="hxn150_resume.pdf"
                     className="ac_btn btn"
                   >
@@ -73,5 +83,6 @@ export const Home = () => {
         </div>
       </section>
     </HelmetProvider>
+    </motion.div>
   );
 };

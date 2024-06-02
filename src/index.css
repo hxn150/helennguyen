@@ -7,7 +7,7 @@
     --text-color-3: rgb(187, 193, 235);
     --overlay-color: rgb(255, 255, 255);
 }   
-/*  */
+
 [data-theme="minimalism"] {
     --bg-color: #1b1d24;
     --primary-color: #1b1d24;

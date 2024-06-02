@@ -16,26 +16,38 @@ const introdata = {
     your_img_url: "https://drive.google.com/uc?export=view&id=1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW",
 };
 //https://drive.google.com/file/d/1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW/view?usp=sharing
-//https://drive.google.com/file/d/1rwGNBvdUxk6SjPJLl6m54hS9yV1br7ht/view?usp=sharing
-
 const image = document.createElement("img");
 // const apiKey = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
 // const fileID = introdata.your_img_id;
 // const imageURL = `https://www.googleapis.com/drive/v3/files/${fileID}?key=${apiKey}&alt=media`;
 
-// image.src = imageURL;
 
 document.body.appendChild(image);
 
 const dataabout = {
     title: "Facts About Myself",
-    aboutme: "I am a current Junior majoring in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for internship opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
+    aboutme: "I am a rising senior majoring in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for internship opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
 };
 const worktimeline = [
     {
+        jobtitle: "Product Manager Intern",
+        where: "Perfec Corp.",
+        date: "Jun 2024",
+    },
+    {
+        jobtitle: "Research Assistant (Front-End Developer)",
+        where: "Weatherhead School of Management",
+        date: "Feb 2024 - Present",
+    },
+    {
+        jobtitle: "Front-End Engineer",
+        where: "SearchOwl",
+        date: "Jan 2024 - Present",
+    },
+    {
         jobtitle: "Website Manager",
         where: "Associate with Case Western Reserve University, Department of Neuroscience",
-        date: "Jan 2023 - Present",
+        date: "Jan 2023 - May 2024",
     },
     {
         jobtitle: "Software Engineering Intern",
@@ -63,11 +75,11 @@ const skills = [{
     },
     {
         name: "React",
-        value: 60,
+        value: 100,
     },
     {
         name: "JavaScript",
-        value: 50,
+        value: 100,
     },
     {
         name: "SQL",
@@ -80,6 +92,18 @@ const skills = [{
 ];
 
 const internships = [
+    {
+        title: "Product Manager Intern @ Perfect Corp.",
+        description: "• Demonstrated strong project management skills using Agile and Waterfall frameworks to support the team on dedicated AR Virtual Try-on projects for key accounts, including SKU and Chanel \n• Assisted with multiple console-related tasks such as SKU creation, color matching, updating, creating shade finder forms, and managing LAB values, ensuring high accuracy and organization for all data-related tasks \n • Responsible for data integration in the backend CMS system, inputting and updating SKUs and image data in the internal database, and providing support with automated solutions where possible",
+    },
+    {
+        title: "Research Assistant @ Weatherhead School of Management",
+        description: "• Redeveloped the front-end of an AI-powered chatbot using React, Ant Design, DaisyUI.com, Material UI, Vercel \n• Developed and tested a chatbot model specializing in computational economics, behavioral economics essay writing, and undergraduate research literature reviews; reduced research time by 50% and increased data reliability by 30%  \n • Analyzed AI instructional feedback in diverse educational settings, resulting in a 40% increase in student engagement and a 25% improvement in learning outcomes",
+    },
+    {
+        title: "FrontEnd Engineer @ SearchOwl",
+        description: "• Re-architected search engine pipeline to incorporate web scraping for gathering structured data, NLP models like BERT for semantic analysis to extract insights and predict user intent for enhanced search relevance and accuracy by over 35% \n• Spearheaded a frontend team of 3 for migration of core architecture from Python Flask to React.js, increasing rendering performance by 40% and modernizing front-end tech stack  \n • Ensured cross-platform compatibility across 90% of targeted platforms through responsive Bootstrap development",
+    },
     {
         title: "Website Manager @ Department of Neuroscience at CWRU",
         description: "• Redesigned UI/UX interfaces to streamline users’ navigation experiences by 30% using Drupal \n • Updated and edited recent publication listings, personnel listings with integration of Google Forms \n• Built and host over 5 websites for faculties to display their research more efficiently by 98%",

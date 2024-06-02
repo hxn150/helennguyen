@@ -3,9 +3,15 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { meta, photoportfolio } from "../../content_option";
-// 
+import { motion } from "framer-motion";
+
 export const PhotoPortfolio = () => {
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeInOut" }}
+    >
     <HelmetProvider>
       <Container className="About-header">
         <Helmet>
@@ -43,5 +49,6 @@ export const PhotoPortfolio = () => {
         </div>
       </Container>
     </HelmetProvider>
+    </motion.div>
   );
 };

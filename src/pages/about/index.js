@@ -11,9 +11,15 @@ import {
   awards,
   languages,
 } from "../../content_option";
-//
+import { motion } from "framer-motion";
+
 export const About = () => {
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeInOut" }}
+    >
     <HelmetProvider>
       <Container className="About-header">
         <Helmet>
@@ -147,5 +153,6 @@ export const About = () => {
         </Row>
       </Container>
     </HelmetProvider>
+    </motion.div>
   );
 };

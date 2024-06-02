@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import { motion } from "framer-motion";
 
 // Replace these values with your actual service credentials
 const name = 'service_12osk1s';
@@ -72,6 +73,11 @@ export const ContactUs = () => {
   };
 
   return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeInOut" }}
+    >
     <HelmetProvider>
       <Container>
         <Helmet>
@@ -170,6 +176,7 @@ export const ContactUs = () => {
       </Container>
       <div className={formData.loading ? "loading-bar" : "d-none"}></div>
     </HelmetProvider>
+    </motion.div>
   );
 };
 
