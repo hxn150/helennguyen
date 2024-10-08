@@ -133,6 +133,21 @@ const awards =[
 
 const dataportfolio = [
     {
+        img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=3269&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "AI4EDU - Educational platform for teachers and students",
+        link: "https://dashboard.ai4edu.io/",
+    },
+    {
+        img: "https://github.com/hxn150/JiveGenie/blob/main/banner.png?raw=true",
+        description: "JiveGenie (1st Place USA for TikTok Techjam 2024!)",
+        link: "https://github.com/hxn150/JiveGenie",
+    },
+    {
+        img: "https://images.unsplash.com/photo-1570139913853-cb8314dcd999?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        description: "SearchOwl - An AI powered personal shopper for skincare and beauty products",
+        link: "https://searchowl.us/",
+    },
+    {
         img: "https://images.unsplash.com/photo-1694958020883-f05b64c3680c?q=80&w=2810&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "AI Image Generator ultilizing the OpenAI API and JS",
         link: "https://github.com/hxn150/AI-Image-Generator",

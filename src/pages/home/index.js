@@ -67,8 +67,8 @@ export const Home = () => {
                   </Link>
                   <a 
                     target="_blank"
-                    href="https://drive.google.com/uc?export=view&id=1hJzpDrWoYt9Ka3U6cs2Rg36GRvwbOU2a"
-                    download="hxn150_resume.pdf"
+                    href="https://drive.google.com/uc?export=view&id=1MsvGScSHuAhq1KOmtlnBFKfHZ9Mp6rSu"
+                    download="Helen_Nguyen_Resume.pdf"
                     className="ac_btn btn"
                   >
                     My Resume
