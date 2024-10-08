@@ -13,9 +13,10 @@ const introdata = {
         third: "Come to stay 🫶",
     },
     description: "I love designing websites and optimizing user experiences, and I am looking forward to becoming an entrepreneur and making an impact on my community using the technology I develop!",
-    your_img_url: "https://drive.google.com/uc?export=view&id=1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW",
+    your_img_url: "https://drive.google.com/uc?export=view&id=1j5_ukiix_ATAKN0_u_59ipzLmO5oZ7NS",
 };
 //https://drive.google.com/file/d/1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW/view?usp=sharing
+//1j5_ukiix_ATAKN0_u_59ipzLmO5oZ7NS
 const image = document.createElement("img");
 // const apiKey = "2a67e147d7b59503605b2fb4095744bd3e1e2f7b"; // Replace with your API key
 // const fileID = introdata.your_img_id;
@@ -26,13 +27,13 @@ document.body.appendChild(image);
 
 const dataabout = {
     title: "Facts About Myself",
-    aboutme: "I am a rising senior majoring in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for internship opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
+    aboutme: "I am a senior majoring in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for new-graduate full time opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
 };
 const worktimeline = [
     {
         jobtitle: "Product Manager Intern",
         where: "Perfec Corp.",
-        date: "Jun 2024",
+        date: "Jun 2024 - Aug 2024",
     },
     {
         jobtitle: "Research Assistant (Front-End Developer)",
@@ -45,14 +46,14 @@ const worktimeline = [
         date: "Jan 2024 - Present",
     },
     {
-        jobtitle: "Website Manager",
-        where: "Associate with Case Western Reserve University, Department of Neuroscience",
-        date: "Jan 2023 - May 2024",
-    },
-    {
         jobtitle: "Software Engineering Intern",
         where: "MoMo E-Wallet Services (FinTech)",
         date: "May 2023 - Aug 2023",
+    },
+    {
+        jobtitle: "Website Manager",
+        where: "Associate with Case Western Reserve University, Department of Neuroscience",
+        date: "Jan 2023 - May 2024",
     },
     {
         jobtitle: "Associate Software Engineering",
@@ -93,25 +94,26 @@ const skills = [{
 
 const internships = [
     {
-        title: "Product Manager Intern @ Perfect Corp.",
-        description: "• Demonstrated strong project management skills using Agile and Waterfall frameworks to support the team on dedicated AR Virtual Try-on projects for key accounts, including SKU and Chanel \n• Assisted with multiple console-related tasks such as SKU creation, color matching, updating, creating shade finder forms, and managing LAB values, ensuring high accuracy and organization for all data-related tasks \n • Responsible for data integration in the backend CMS system, inputting and updating SKUs and image data in the internal database, and providing support with automated solutions where possible",
+        title: "Technical Product Manager Intern @ Perfect Corp.",
+        description: "Optimized user engagement for major beauty brands including Cetaphil and Chanel by analyzing product traffic analytics, resulting in a 15% increase in average session duration \n• Enhanced product accuracy and user satisfaction by spearheading beta testing and user feedback collection for SKU consoles, leading to a 30% reduction in color matching errors resulting in improved data integration efficiency \n • Drove product innovation by actively contributing to developing the product roadmap, aligning technical capabilities with business goals and product with global regulations",
     },
     {
         title: "Research Assistant @ Weatherhead School of Management",
-        description: "• Redeveloped the front-end of an AI-powered chatbot using React, Ant Design, DaisyUI.com, Material UI, Vercel \n• Developed and tested a chatbot model specializing in computational economics, behavioral economics essay writing, and undergraduate research literature reviews; reduced research time by 50% and increased data reliability by 30%  \n • Analyzed AI instructional feedback in diverse educational settings, resulting in a 40% increase in student engagement and a 25% improvement in learning outcomes",
+        description: "• Redeveloped the front-end of an AI-powered chatbot using React, Material UI, Vercel \n• Developed and tested a chatbot model specializing in computational economics, behavioral economics essay writing, and undergraduate research literature reviews; reduced research time by 50% and increased data reliability by 30%  \n • Analyzed AI instructional feedback in diverse educational settings, resulting in a 40% increase in student engagement and a 25% improvement in learning outcomes",
     },
     {
         title: "FrontEnd Engineer @ SearchOwl",
-        description: "• Re-architected search engine pipeline to incorporate web scraping for gathering structured data, NLP models like BERT for semantic analysis to extract insights and predict user intent for enhanced search relevance and accuracy by over 35% \n• Spearheaded a frontend team of 3 for migration of core architecture from Python Flask to React.js, increasing rendering performance by 40% and modernizing front-end tech stack  \n • Ensured cross-platform compatibility across 90% of targeted platforms through responsive Bootstrap development",
-    },
-    {
-        title: "Website Manager @ Department of Neuroscience at CWRU",
-        description: "• Redesigned UI/UX interfaces to streamline users’ navigation experiences by 30% using Drupal \n • Updated and edited recent publication listings, personnel listings with integration of Google Forms \n• Built and host over 5 websites for faculties to display their research more efficiently by 98%",
+        description: "• Re-architected search engine pipeline to incorporate web scraping for gathering structured data, NLP models like BERT for semantic analysis to extract insights and predict user intent for enhanced search relevance and accuracy by over 35% \n• Spearheaded a frontend team of 3 for migration of core architecture from Python Flask to React.js, increasing rendering performance by 40% and modernizing front-end tech stack",
     },
     {
         title: "Software Engineering Intern (ITC) @ MoMo E-Wallet Services",
         description: "• Streamlined internal navigation experiences and accuracy by over 90% using Typesense \n • Automated MoMo’s Web Admin testing and improved testing time by 20% using Puppeteer \n • Redesigned the layout of the MoMo App Store using frontend technologies such as React and CSS",
     },
+    {
+        title: "Website Manager @ Department of Neuroscience at CWRU",
+        description: "• Redesigned UI/UX interfaces to streamline users’ navigation experiences by 30% using Drupal \n • Updated and edited recent publication listings, personnel listings with integration of Google Forms \n• Built and host over 5 websites for faculties to display their research more efficiently by 98%",
+    },
+    
     {
         title: "Associate Software Engineering @ TrueCommerce DiCentral",
         description: "• Improved customer’s navigation experiences by implementing 6 filter features using Angular 7 \n • Authored and briefed over 6 technical documents of new features and workflows to offshore teams \n • Streamlined customer’s rules checking processes by 45% by updating SQL stored procedures",
@@ -139,7 +141,7 @@ const dataportfolio = [
     },
     {
         img: "https://github.com/hxn150/JiveGenie/blob/main/banner.png?raw=true",
-        description: "JiveGenie (1st Place USA for TikTok Techjam 2024!)",
+        description: "JiveGenie (1st Place USA for TikTok Techjam 2024!) - TikTok choreography generator",
         link: "https://github.com/hxn150/JiveGenie",
     },
     {
