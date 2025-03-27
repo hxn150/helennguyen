@@ -67,7 +67,7 @@ export const Home = () => {
                   </Link>
                   <a 
                     target="_blank"
-                    href="https://drive.google.com/uc?export=view&id=1MsvGScSHuAhq1KOmtlnBFKfHZ9Mp6rSu"
+                    href="https://drive.google.com/uc?export=view&id=1Q_2MGlibp598hy4UXUQ7mFsSrC_4SiNr"
                     download="Helen_Nguyen_Resume.pdf"
                     className="ac_btn btn"
                   >

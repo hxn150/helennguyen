@@ -13,7 +13,7 @@ const introdata = {
         third: "Come to stay 🫶",
     },
     description: "I love designing websites and optimizing user experiences, and I am looking forward to becoming an entrepreneur and making an impact on my community using the technology I develop!",
-    your_img_url: "https://drive.google.com/uc?export=view&id=1j5_ukiix_ATAKN0_u_59ipzLmO5oZ7NS",
+    your_img_url: "https://drive.google.com/uc?export=view&id=1mYqLAq3jImICmQfzd42TIb0HkYqQ_Akw",
 };
 //https://drive.google.com/file/d/1kdEBvEr64XHJqmX2gFOLRGp9hTmuqPuW/view?usp=sharing
 //1j5_ukiix_ATAKN0_u_59ipzLmO5oZ7NS
@@ -27,9 +27,14 @@ document.body.appendChild(image);
 
 const dataabout = {
     title: "Facts About Myself",
-    aboutme: "I am a senior majoring in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for new-graduate full time opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
+    aboutme: "I am working towards a BS/MS degree in Computer Science with minors in Banking & Finance and Maths at Case Western Reserve University. I am interested in Web Development and am looking for new-graduate full time opportunities as a Software Engineer and Web Developer. I am also passionate about any opportunities within the Fintech world!",
 };
 const worktimeline = [
+    {
+        jobtitle: "Software Engineering Intern",
+        where: "Bank of America",
+        date: "Jun 2025 - Aug 2025",
+    },
     {
         jobtitle: "Product Manager Intern",
         where: "Perfec Corp.",
