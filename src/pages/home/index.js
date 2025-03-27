@@ -26,7 +26,7 @@ export const Home = () => {
           <Image
                       className="h_bg-image order-1 order-lg-2 h-100 "
                       src={img}
-                      width="100%"
+                      width="75%"
                       height="auto"
                     />
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
