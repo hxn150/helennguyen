@@ -127,6 +127,11 @@ const internships = [
 
 const awards =[
     {
+        jobtitle: "First Place Regional (US)",
+        where: "TikTok TechJam",
+        date: "Aug 2024",
+    },
+    {
         jobtitle: "Best Hack Award (Civil Track) and Dream Big and Create More Cheers with AB InBev Award",
         where: "HACKCWRU 2022, Associate with Case Western Reserve University",
         date: "March 2022",
